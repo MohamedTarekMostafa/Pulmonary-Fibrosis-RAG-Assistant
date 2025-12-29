@@ -1,4 +1,4 @@
-# Pulmonary Fibrosis Research RAG Assistant 🧬
+# Pulmonary Fibrosis Research RAG Assistant 
 
 This project is a **Retrieval-Augmented Generation (RAG)** application designed to act as an expert Biomedical Research Assistant. It focuses on technical inquiries regarding **Human Lung Organoids (hLOs)** and **Radiation-induced Pulmonary Fibrosis (RIPF)** based on specific research papers.
 
@@ -24,4 +24,5 @@ This project is a **Retrieval-Augmented Generation (RAG)** application designed 
 ## 📋 Prerequisites
 Ensure you have a `.env` file in the root directory containing your API keys:
 ```env
+
 GROQ_API_KEY=your_groq_api_key_here
