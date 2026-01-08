@@ -3,7 +3,7 @@
 
 This project is a **Retrieval-Augmented Generation (RAG)** application designed to act as an expert Biomedical Research Assistant. It focuses on technical inquiries regarding **Human Lung Organoids (hLOs)** and **Radiation-induced Pulmonary Fibrosis (RIPF)** based on specific research papers.
 
-## 🚀 Features
+##  Features
 * **PDF Processing:** Extracts and splits research papers into manageable chunks using LangChain.
 * **Vector Database:** Uses **ChromaDB** with HuggingFace embeddings (`BAAI/bge-small-en-v1.5`) for efficient semantic search.
 * **LLM Integration:** Powered by **Llama-3.3-70b** (via Groq) for high-speed and accurate medical reasoning.
@@ -12,7 +12,7 @@ This project is a **Retrieval-Augmented Generation (RAG)** application designed 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Framework:** LangChain
 - **LLM:** Groq (Llama-3.3-70b-versatile)
 - **Embeddings:** HuggingFace (BGE model)
@@ -22,11 +22,12 @@ This project is a **Retrieval-Augmented Generation (RAG)** application designed 
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 Ensure you have a `.env` file in the root directory containing your API keys:
 ```env
 
 GROQ_API_KEY=your_groq_api_key_here
+
 
 
 
